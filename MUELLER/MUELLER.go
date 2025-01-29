@@ -211,7 +211,7 @@ func (s *Server) Start() {
 	fmt.Println("🌱 Loading Plants vs Zombies defense system...")
 
 	if s.bgMusic == "" {
-		s.bgMusic = filepath.Join(s.defaultDir, "pvz_theme.mp3")
+		s.bgMusic = filepath.Join(s.defaultDir, "server_theme.mp3")
 	}
 
 	s.initSpeaker()
