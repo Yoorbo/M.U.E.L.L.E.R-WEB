@@ -1,0 +1,14 @@
+### GET request to example server
+POST http://localhost:2000/students
+
+###
+GET http://localhost:2000/students
+
+###
+DELETE http://localhost:2000/students
+
+
+###
+PUT http://localhost:2000/students
+
+###
