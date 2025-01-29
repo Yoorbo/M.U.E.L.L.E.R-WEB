@@ -356,10 +356,10 @@ func (v *VolumeStreamer) Err() error {
 
 func (s *Server) playSound(soundFile string) {
 	pvzSounds := map[string]string{
-		"GET_default_sound.mp3":    "pvz_plant.mp3",
-		"POST_default_sound.mp3":   "pvz_shovel.mp3",
+		"GET_default_sound.mp3":    "GET_default_sound.mp3",
+		"POST_default_sound.mp3":   "POST_default_sound.mp3",
 		"404_sound.mp3":            "pvz_zombie.mp3",
-		"DELETE_default_sound.mp3": "pvz_scream.mp3",
+		"DELETE_default_sound.mp3": "DELETE_default_sound.mp3",
 	}
 
 	if newSound, ok := pvzSounds[filepath.Base(soundFile)]; ok {
